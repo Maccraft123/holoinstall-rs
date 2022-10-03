@@ -1,0 +1,9 @@
+[package]
+name = "holoinstall-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aski = { git = "https://github.com/Maccraft123/aski.git", branch = "main" }
+gpt = "3.0.0"
+hwctl = { git = "https://github.com/Maccraft123/hwctl.git", branch = "main" }
